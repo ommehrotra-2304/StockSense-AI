@@ -1,0 +1,23 @@
+{
+  "model": "RandomForestRegressor",
+  "cutoff_date": "2025-12-01",
+  "test_days": 30,
+  "mae": 6.952,
+  "rmse": 9.031,
+  "naive_weekly_mae": 10.572,
+  "feature_columns": [
+    "product_id_code",
+    "store_id_code",
+    "price",
+    "promotion",
+    "lag_1",
+    "lag_7",
+    "lag_14",
+    "rolling_mean_7",
+    "rolling_mean_28",
+    "day_of_week",
+    "month",
+    "week_of_year",
+    "day_of_year"
+  ]
+}
